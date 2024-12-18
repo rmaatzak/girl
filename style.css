@@ -1,0 +1,145 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    background-color: #F9EEE4;
+}
+
+@font-face {
+    font-family: girl;
+    src: url(font/solid-antique-roman-std.otf);
+}
+
+
+@font-face {
+    font-family: inter;
+    src: url(font/Inter-VariableFont_opsz\,wght.ttf);
+}
+header{
+    width: 100%;
+    display: flex;
+    font-family: girl;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    width: 100%;
+    padding-left: 440px;
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.banner{
+    background-image: url(img/banner.png);
+    height: 500px;
+    width: 1260px;
+    margin-top: 30PX;
+    margin-left: 50px;
+}
+
+.rory{
+    background-image: url(img/rory.png);
+    height: 322px;
+    width: 1028px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+
+h2{
+    font-family: girl;
+    font-size: 30px;
+    color: black;
+
+    margin-top: 50px;
+}
+
+.lala{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    width: 900px;
+    font-family: inter;
+    text-align: center;
+    margin-top: 30px
+}
+
+.photo{
+    background-image: url(img/photo.png);
+    height: 1200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.basat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oo{
+    font-family: inter;
+    background-color: #f9eee400;
+    border: black solid 1px;
+    border-radius: 100px;
+    width: 100px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.atores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mm{
+    background-image: url(img/mm.png);
+    height: 1200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.aa{
+    background-image: url(img/aa.png);
+    height: 450px;
+    width: 700px;
+    border-radius: 100px;
+    margin-left: 300px;
+}
+
+footer{
+    height: 50px;
+    background-color: #6E3432;
+    color: white;
+    font-family: girl;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
